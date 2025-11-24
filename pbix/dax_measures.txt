@@ -1,0 +1,7 @@
+Total Revenue = SUM(Fato_Vendas[valor_total])
+Total Quantity = SUM(Fato_Vendas[quantidade])
+Average Ticket = DIVIDE([Total Revenue], [Total Quantity], 0)
+Revenue YoY = 
+VAR Current = [Total Revenue]
+VAR Prev = CALCULATE([Total Revenue], SAMEPERIODLASTYEAR(Dim_Calendario[data]))
+RETURN DIVIDE(Current - Prev, Prev, BLANK())
