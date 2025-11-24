@@ -47,62 +47,7 @@ O modelo segue o padrão estrela:
 
 ---
 
-## 🧠 Insights (exemplos, será preenchido depois)
-- Produto X apresenta maior volume, mas menor margem.  
-- Região Sul possui maior ticket médio.  
-- Forte sazonalidade no Q4.  
-
----
-
-## 📬 Contato  
-Email: **lucas.rfaraco@gmail.com**  
-LinkedIn: **https://www.linkedin.com/in/lucasfararco**
-
----
-
----
-
-# 🇺🇸 About the Project
-
-## 🎯 Goal  
-Build a complete BI environment to analyze:
-
-- Total revenue  
-- Average ticket  
-- Monthly sales trends  
-- Top products and categories  
-- Regional performance  
-- Seasonality  
-
----
-
-## 🛠️ Technologies Used
-- **Power BI**  
-- **SQL (MySQL or SQLite)**  
-- **Excel / CSV**  
-- **Dimensional modeling (star schema)**  
-
----
-
----
-
-## 📐 Modelagem de Dados  
-O modelo segue o padrão estrela:
-
-- **Fato_Vendas**
-- **Dim_Produto**
-- **Dim_Cliente**
-- **Dim_Calendario**
-- **Dim_Regiao**
-
----
-
-## 📊 Dashboard  
-📌 *A imagem do dashboard será adicionada assim que o arquivo .pbix estiver pronto.*  
-
----
-
-## 🧠 Insights (exemplos, será preenchido depois)
+## 🧠 Insights (exemplos, serão preenchidos depois)
 - Produto X apresenta maior volume, mas menor margem.  
 - Região Sul possui maior ticket médio.  
 - Forte sazonalidade no Q4.  
@@ -140,6 +85,71 @@ Build a complete BI environment to analyze:
 ---
 
 ## 📁 Repository Structure  
+
+## 📐 Modelagem de Dados  
+O modelo segue o padrão estrela:
+
+- **Fato_Vendas**
+- **Dim_Produto**
+- **Dim_Cliente**
+- **Dim_Calendario**
+- **Dim_Regiao**
+
+---
+
+## 📊 Dashboard  
+📌 *A imagem do dashboard será adicionada assim que o arquivo .pbix estiver pronto.*  
+
+---
+
+## 🧠 Insights (exemplos, serão preenchidos depois)
+- Produto X apresenta maior volume, mas menor margem.  
+- Região Sul possui maior ticket médio.  
+- Forte sazonalidade no Q4.  
+
+---
+
+## 📬 Contato  
+Email: **lucas.rfaraco@gmail.com**  
+LinkedIn: **https://www.linkedin.com/in/lucasfararco**
+
+---
+
+---
+
+# 🇺🇸 About the Project
+
+## 🎯 Goal  
+Build a complete BI environment to analyze:
+
+- Total revenue  
+- Average ticket  
+- Monthly sales trends  
+- Top products and categories  
+- Regional performance  
+- Seasonality  
+
+---
+
+## 🛠️ Technologies Used
+- **Power BI**  
+- **SQL (MySQL or SQLite)**  
+- **Excel / CSV**  
+- **Dimensional modeling (star schema)**  
+
+---
+
+## 📁 Repository Structure  
+
+data/
+raw/ → raw data
+processed/ → cleaned data
+sql/ → SQL scripts
+pbix/ → Power BI file
+images/ → dashboard images
+
+yaml
+Copiar código
 
 ---
 
@@ -170,6 +180,3 @@ Star schema containing:
 Email: **lucas.rfaraco@gmail.com**  
 LinkedIn: **https://www.linkedin.com/in/lucasfararco**
 
-
-
-## 📁 Repository Structure  
