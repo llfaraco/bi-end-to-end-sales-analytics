@@ -1,0 +1,101 @@
+id_produto,categoria,subcategoria,nome_produto,custo,preco
+1,Electronics,Accessories,ELE-ACC-001,12.68,18.87
+2,Electronics,Computers,ELE-COM-002,18.12,39.06
+3,Toys,Action Figures,TOY-ACT-003,40.83,59.07
+4,Toys,Learning,TOY-LEA-004,17.39,30.89
+5,Home,Decor,HOM-DEC-005,51.69,112.11
+6,Clothing,Women,CLO-WOM-006,33.93,44.8
+7,Clothing,Men,CLO-MEN-007,36.28,73.47
+8,Clothing,Kids,CLO-KID-008,30.82,43.0
+9,Electronics,Accessories,ELE-ACC-009,46.59,98.65
+10,Home,Kitchen,HOM-KIT-010,46.75,98.55
+11,Sports,Fitness,SPO-FIT-011,40.03,73.71
+12,Electronics,Phones,ELE-PHO-012,43.47,76.46
+13,Sports,Team,SPO-TEA-013,31.82,50.23
+14,Home,Furniture,HOM-FUR-014,43.13,92.29
+15,Sports,Outdoor,SPO-OUT-015,29.93,39.48
+16,Toys,Board Games,TOY-BOA-016,35.03,55.58
+17,Home,Kitchen,HOM-KIT-017,30.88,45.48
+18,Sports,Fitness,SPO-FIT-018,28.14,53.89
+19,Toys,Learning,TOY-LEA-019,24.66,45.74
+20,Sports,Fitness,SPO-FIT-020,42.02,78.71
+21,Electronics,Computers,ELE-COM-021,54.66,87.92
+22,Sports,Outdoor,SPO-OUT-022,52.57,64.55
+23,Sports,Outdoor,SPO-OUT-023,16.15,31.45
+24,Sports,Outdoor,SPO-OUT-024,54.34,92.43
+25,Home,Furniture,HOM-FUR-025,30.23,44.76
+26,Home,Decor,HOM-DEC-026,44.01,59.89
+27,Electronics,Computers,ELE-COM-027,21.41,28.59
+28,Toys,Action Figures,TOY-ACT-028,37.13,64.81
+29,Toys,Learning,TOY-LEA-029,39.71,66.49
+30,Home,Furniture,HOM-FUR-030,12.73,15.29
+31,Sports,Fitness,SPO-FIT-031,44.12,53.45
+32,Home,Kitchen,HOM-KIT-032,55.19,69.75
+33,Toys,Learning,TOY-LEA-033,32.38,68.43
+34,Sports,Team,SPO-TEA-034,55.4,109.05
+35,Home,Furniture,HOM-FUR-035,32.15,50.16
+36,Home,Kitchen,HOM-KIT-036,47.74,59.88
+37,Electronics,Audio,ELE-AUD-037,8.28,18.02
+38,Electronics,Audio,ELE-AUD-038,71.28,138.92
+39,Sports,Outdoor,SPO-OUT-039,57.43,90.97
+40,Sports,Fitness,SPO-FIT-040,30.73,39.15
+41,Sports,Team,SPO-TEA-041,5.42,7.74
+42,Toys,Board Games,TOY-BOA-042,39.32,67.93
+43,Sports,Outdoor,SPO-OUT-043,13.34,16.45
+44,Electronics,Accessories,ELE-ACC-044,41.67,84.35
+45,Home,Kitchen,HOM-KIT-045,41.17,50.07
+46,Electronics,Computers,ELE-COM-046,20.88,38.35
+47,Sports,Fitness,SPO-FIT-047,51.81,70.27
+48,Clothing,Women,CLO-WOM-048,47.08,83.19
+49,Clothing,Kids,CLO-KID-049,49.64,105.71
+50,Electronics,Computers,ELE-COM-050,35.13,47.99
+51,Sports,Outdoor,SPO-OUT-051,13.77,19.62
+52,Sports,Fitness,SPO-FIT-052,49.67,106.68
+53,Electronics,Computers,ELE-COM-053,30.94,56.17
+54,Sports,Team,SPO-TEA-054,14.15,22.78
+55,Toys,Learning,TOY-LEA-055,55.28,97.29
+56,Home,Decor,HOM-DEC-056,66.49,85.52
+57,Sports,Outdoor,SPO-OUT-057,34.38,69.77
+58,Clothing,Women,CLO-WOM-058,67.39,102.1
+59,Electronics,Audio,ELE-AUD-059,36.37,55.21
+60,Electronics,Accessories,ELE-ACC-060,29.29,62.36
+61,Clothing,Women,CLO-WOM-061,25.54,38.58
+62,Clothing,Women,CLO-WOM-062,59.56,121.82
+63,Toys,Action Figures,TOY-ACT-063,23.3,45.44
+64,Home,Kitchen,HOM-KIT-064,46.03,56.95
+65,Home,Kitchen,HOM-KIT-065,26.61,39.87
+66,Home,Kitchen,HOM-KIT-066,28.1,47.46
+67,Toys,Board Games,TOY-BOA-067,50.45,74.97
+68,Electronics,Accessories,ELE-ACC-068,29.3,53.8
+69,Electronics,Accessories,ELE-ACC-069,28.93,51.54
+70,Electronics,Accessories,ELE-ACC-070,51.99,106.18
+71,Clothing,Kids,CLO-KID-071,58.96,73.15
+72,Clothing,Kids,CLO-KID-072,44.67,77.61
+73,Sports,Outdoor,SPO-OUT-073,25.18,35.61
+74,Toys,Action Figures,TOY-ACT-074,27.34,46.78
+75,Clothing,Kids,CLO-KID-075,36.2,63.03
+76,Sports,Team,SPO-TEA-076,39.81,80.22
+77,Home,Decor,HOM-DEC-077,20.18,43.08
+78,Sports,Team,SPO-TEA-078,45.85,98.14
+79,Toys,Learning,TOY-LEA-079,36.28,76.57
+80,Toys,Action Figures,TOY-ACT-080,9.26,19.16
+81,Sports,Outdoor,SPO-OUT-081,21.07,34.26
+82,Sports,Outdoor,SPO-OUT-082,27.44,55.78
+83,Clothing,Women,CLO-WOM-083,33.91,53.01
+84,Home,Kitchen,HOM-KIT-084,63.34,95.87
+85,Home,Decor,HOM-DEC-085,38.57,70.1
+86,Sports,Outdoor,SPO-OUT-086,22.39,39.91
+87,Electronics,Computers,ELE-COM-087,38.31,78.94
+88,Sports,Team,SPO-TEA-088,29.72,59.23
+89,Electronics,Computers,ELE-COM-089,39.87,87.28
+90,Toys,Learning,TOY-LEA-090,43.71,72.41
+91,Toys,Action Figures,TOY-ACT-091,53.14,81.85
+92,Home,Kitchen,HOM-KIT-092,34.64,61.57
+93,Sports,Fitness,SPO-FIT-093,59.58,100.91
+94,Toys,Board Games,TOY-BOA-094,48.62,86.5
+95,Home,Kitchen,HOM-KIT-095,24.39,53.06
+96,Electronics,Phones,ELE-PHO-096,68.15,95.83
+97,Sports,Fitness,SPO-FIT-097,39.9,60.8
+98,Clothing,Kids,CLO-KID-098,22.47,31.45
+99,Sports,Outdoor,SPO-OUT-099,59.79,127.7
+100,Clothing,Men,CLO-MEN-100,66.17,116.51
