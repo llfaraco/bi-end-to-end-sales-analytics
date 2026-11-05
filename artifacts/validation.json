@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-11-05T20:07:37.528383+00:00",
+  "duration_seconds": 0.4668,
+  "python": "3.12.14",
+  "input_sha256": {
+    "Dim_Produto.csv": "ceee52e5f53a538d62197ad14c1360a77427576040ecf8fff655672a3053b0e9",
+    "Dim_Regiao.csv": "7107f883b7a31bb7496db5e536a1b7fba0113a9063cb9312b833981bfe5a7170",
+    "Dim_Calendario.csv": "5691e92897fc812a526f989a98f1ed50121e223d5d095547c99794806d994754",
+    "Fato_Vendas.csv": "0eff2795675f3550ace05b128015aff77771f26313bf530ea030de8fb8e7fd51"
+  },
+  "checks": {
+    "unique_keys": true,
+    "valid_domains": true,
+    "foreign_keys": true,
+    "revenue_reconciled": true
+  },
+  "metrics": {
+    "receita": 894347.71,
+    "transacoes": 10000,
+    "unidades": 13840,
+    "clientes": 1000,
+    "ticket_por_transacao": 89.43,
+    "receita_por_unidade": 64.62,
+    "custo_estimado": 523962.05,
+    "margem_bruta_estimada": 370385.66
+  },
+  "period": {
+    "start": "2023-01-01",
+    "end": "2024-12-31"
+  },
+  "assumptions": [
+    "Base de estudo; origem e moeda não documentadas nos arquivos recebidos.",
+    "id_venda tratado como uma transação; id_cliente é identificador sem atributos inferidos.",
+    "Custo estimado usa custo cadastrado, sem impostos, frete ou variação histórica."
+  ]
+}

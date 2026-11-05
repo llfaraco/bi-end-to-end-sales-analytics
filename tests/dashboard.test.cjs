@@ -1,0 +1,13 @@
+const fs=require('node:fs');const vm=require('node:vm');const assert=require('node:assert/strict');const path=require('node:path');
+const source=fs.readFileSync(path.join(__dirname,'../artifacts/dashboard.html'),'utf8').match(/<script>([\s\S]*)<\/script>/)[1];
+const nodes={};const document={getElementById(id){return nodes[id]??=( {value:'',innerHTML:'',addEventListener(){}} )}};
+const ctx=vm.createContext({document,Intl});vm.runInContext(source,ctx);
+assert.equal(vm.runInContext('data.length',ctx),10000);
+assert.match(nodes.cards.innerHTML,/10\.000/);
+nodes.year.value='2023';vm.runInContext('render()',ctx);const expected=vm.runInContext("data.filter(r=>r.data.startsWith('2023')).length",ctx);
+assert.match(nodes.cards.innerHTML,new RegExp(new Intl.NumberFormat('pt-BR').format(expected).replace('.','\\.')));
+nodes.region.value='South';vm.runInContext('render()',ctx);
+const revenue=vm.runInContext("data.filter(r=>r.data.startsWith('2023')&&r.regiao==='South').reduce((s,r)=>s+r.valor_total,0)",ctx);
+assert.match(nodes.cards.innerHTML,new RegExp(new Intl.NumberFormat('pt-BR',{minimumFractionDigits:2,maximumFractionDigits:2}).format(revenue).replace(/[.*+?^${}()|[\]\\]/g,'\\$&')));
+nodes.year.value='1900';vm.runInContext('render()',ctx);assert.match(nodes.cards.innerHTML,/Sem dados/);assert.doesNotMatch(nodes.cards.innerHTML,/NaN|Infinity/);
+console.log('Dashboard: totais, filtro de ano, combinação de filtros e estado vazio verificados.');

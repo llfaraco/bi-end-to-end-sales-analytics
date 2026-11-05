@@ -1,7 +1,13 @@
-Total Revenue = SUM(Fato_Vendas[valor_total])
-Total Quantity = SUM(Fato_Vendas[quantidade])
-Average Ticket = DIVIDE([Total Revenue], [Total Quantity], 0)
-Revenue YoY = 
-VAR Current = [Total Revenue]
-VAR Prev = CALCULATE([Total Revenue], SAMEPERIODLASTYEAR(Dim_Calendario[data]))
-RETURN DIVIDE(Current - Prev, Prev, BLANK())
+-- Para a tabela Vendas importada de artifacts/vendas_tratadas.csv.
+Receita = SUM(Vendas[valor_total])
+Transacoes = DISTINCTCOUNT(Vendas[id_venda])
+Unidades = SUM(Vendas[quantidade])
+Clientes = DISTINCTCOUNT(Vendas[id_cliente])
+Ticket por Transacao = DIVIDE([Receita], [Transacoes])
+Receita por Unidade = DIVIDE([Receita], [Unidades])
+Custo Estimado = SUM(Vendas[custo_estimado])
+Margem Bruta Estimada = [Receita] - [Custo Estimado]
+Margem Bruta Estimada Percentual = DIVIDE([Margem Bruta Estimada], [Receita])
+-- YoY: requer Dim_Calendario marcada como tabela de datas e relacionamento com Vendas[data].
+Receita Ano Anterior = CALCULATE([Receita], SAMEPERIODLASTYEAR(Dim_Calendario[data]))
+Receita YoY Percentual = DIVIDE([Receita] - [Receita Ano Anterior], [Receita Ano Anterior])
